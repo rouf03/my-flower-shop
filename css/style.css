@@ -307,3 +307,42 @@ body {
     margin-left: 10px;
     padding: 18px 35px;
 }
+
+/* Footer Section Styles */
+
+.foot {
+    background-color: #111010;
+    color: #FFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.foot-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.foot-span {
+    color: #E55473;
+}
+
+.foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

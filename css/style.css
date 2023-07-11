@@ -110,7 +110,7 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 
-figcaption {
+.featured-figcap {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -119,3 +119,21 @@ figcaption {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+.featured-support {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px 130px 200px;
+    align-items: center;
+    padding: 50px;
+}
+
+.support-figcap {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+

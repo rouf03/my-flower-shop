@@ -14,17 +14,17 @@ body {
 .banner-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    justify-content: space-around;
     height: 100vh;
     align-items: center;
 }
 
 .banner-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 150px;
     margin-left: 200px;
 }
 
@@ -40,20 +40,22 @@ body {
 }
 
 .banner-img {
-    width: 500px;
-    margin-top: 50px;
-    margin-right: 200px;
-    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-right: 200px;
+    align-items: baseline;
 }
 
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 20px 35px;
     gap: 10px;
     border: none;
     color: white;
     margin-left: 200px;
+    font-size: 22px;
 }
 
 /* Featured Section Styles */
@@ -126,6 +128,7 @@ body {
     margin: 0 200px 130px 200px;
     align-items: center;
     padding: 50px;
+    background: rgba(39, 39, 39, 0.05);
 }
 
 .support-figcap {
@@ -137,3 +140,41 @@ body {
     line-height: 35px;
 }
 
+/* Hot Deal Section Styles */
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    align-items: center;
+    padding-left: 200px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-off {
+    color: #E55473;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.hot-deal-img {
+    margin-right: 60px;
+}

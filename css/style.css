@@ -43,6 +43,7 @@ body {
     width: 500px;
     margin-top: 50px;
     margin-right: 200px;
+    padding-bottom: 60px;
 }
 
 .btn-primary {
@@ -53,4 +54,68 @@ body {
     border: none;
     color: white;
     margin-left: 200px;
+}
+
+/* Featured Section Styles */
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.featured-items {
+    margin: 50px 200px 190px 200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.item-1 {
+    width: 220px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.item-2 {
+    width: 220px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.item-3 {
+    width: 220px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+figcaption {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }

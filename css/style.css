@@ -178,3 +178,12 @@ body {
 .hot-deal-img {
     margin-right: 60px;
 }
+
+/* Occasion Section Styles */
+
+.occasion-container {
+    height: 70vh;
+    background-image: url(../images/bg\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
